@@ -1,0 +1,15 @@
+cd -> Seleciona o diretório
+ls -> Apresenta todos os arquivos e pastas nesse diretorio (-a apresenta itens ocultos)
+mkdir -> Cria uma pasta
+rm -rf -> Remove
+CTRL + L -> Limpa o terminal
+
+git status -> Apresenta o status do repositório
+git init -> Inicia o git e cria o repositório no diretório selecionado 
+git add -> Adiciona o arquivo para o Staged
+git commit -m "msg" -> Realiza o commit
+git remote add origin <link> -> Adiciona o link do repositório remoto com o apelido Origin
+git remote -v -> Apresenta todos os links de repositório remoto
+git push origin master -> Envia o branch master para o repositório remoto Origin
+git pull origin master -> Puxa o branch master do repositório remoto Origin
+git clone <link> -> Clona um repositório remoto para o respositório local
